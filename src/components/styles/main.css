@@ -1,0 +1,62 @@
+.container {
+    background-color: #424242;
+    height: 100vh;
+
+}
+
+.row{
+    display: flex;
+}
+
+.dashboard-left-col {
+    background-color: white;
+    border-radius: 50px;
+    height: 97vh;
+    width: 25%;
+    margin-left: 1vh;
+    margin-top: 2vh;
+    box-shadow: 10px 10px 20px rgb(40, 40, 40) ;
+}
+
+
+.dashboard-right-col {
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    height: 97vh;
+    width: 75%;
+    margin-right: 1vh;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    box-shadow: 10px 10px 20px rgb(40, 40, 40);
+}
+
+.ProfileIcon {
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+.Icon_list {
+    margin-left: 5%;
+    margin-top: 25%;
+}
+
+.btn {
+    display: flex;
+    padding-bottom: 3%;
+    background-color: transparent;
+    border: none;
+    margin-left: 1%;
+    width: 100%;
+    align-items: center;
+}
+
+.btn span{
+    margin-left: 5%;
+    align-self: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: bold;
+    color: #375959;
+}
